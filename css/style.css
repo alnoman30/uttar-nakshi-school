@@ -1,0 +1,740 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+ul,
+li {
+  text-decoration: none;
+}
+
+.logo_area {
+  width: 30%;
+}
+
+.logo_area img {
+  width: 135px;
+}
+
+.header_top_title {
+  padding: 20px;
+  color: #242222;
+  font-family: 'Roboto', sans-serif;
+}
+
+.header_top_title h2 {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+.header_top_title h1 {
+  color: #003CA9;
+  font-size: 25px;
+}
+.header_loc_info {
+  padding: 20px;
+  text-align: right;
+}
+.header_loc_info h2{
+  font-size: 20px;
+  color: #39d088;
+}
+.header_loc_info h3{
+  font-size: 18px;
+  color: #242222;
+}
+.background_image {
+  background-image: url("../images/body.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+/*=================================== Menubar css =========================================================*/
+
+
+#Main_menu{
+  margin-top: 20px;
+}
+.bg-light {
+  background: linear-gradient(-90deg, #39d088, #003CA9);
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #ffffff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	font-size: 18px;
+}
+
+
+
+/*=================================== Menubar css =========================================================*/
+
+
+
+
+
+/*==================================== Notice Board Part ==================================================== */
+#notice_board {
+  margin-top: 10px;
+}
+
+.notice_box {
+  width: 15%;
+  background: linear-gradient(-90deg, #39d088, #003CA9);
+  padding: 5px 0px 2px 5px;
+  color: #fff;
+  font-size: 17px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.notice_area {
+  width: 85%;
+  padding: 5px 0px 2px 5px;
+  background-color: #7a7a7a;
+  font-size: 17px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.notice_area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+/*==================================== Notice Board Part ==================================================== */
+
+
+/*==================================== Banner Image Part ==================================================== */
+.carousel-item img {
+  height: 550px ;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+/*==================================== Banner Image Part ==================================================== */
+
+
+
+/*====================================== History Part ==============================================================*/
+#History {
+  margin-top: 35px;
+}
+
+.history_title {
+  background: linear-gradient(-90deg, #39d088, #003CA9);
+  padding: 5px 0px 5px 2px;
+  color: #fff;
+  line-height: 1;
+}
+
+.history_title p {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 6px;
+  line-height: 1;
+}
+
+.history_details {
+  margin-top: 10px;
+}
+
+.history_details img {
+  width: 40%;
+  height: auto;
+  margin-right: 10px;
+  float: left;
+}
+
+.history_details p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: auto;
+  color: #000;
+  text-align: justify;
+
+}
+
+/*====================================== History Part ==============================================================*/
+
+
+
+
+
+/*====================================== Principle spech/Messages part =================================================*/
+.messages_title_01 {
+  background: linear-gradient(-90deg, #39d088, #003CA9);
+  padding: 5px 0px 5px 2px;
+  color: #fff;
+  line-height: 1;
+}
+
+.messages_title_01 p {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-top: 6px;
+  line-height: 1;
+}
+
+.messages_details_01 {
+  margin-top: 10px;
+}
+
+.messages_details_01 img {
+  width: 40%;
+  height: auto;
+  margin-right: 10px;
+  float: left;
+}
+
+.messages_details_01 p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: auto;
+  color: #000;
+  text-align: justify;
+
+}
+
+/*====================================== Principle spech/Messages part =================================================*/
+
+
+
+
+/*==================================== Right Side Notice Part ==================================================== */
+.Notice_board_part h4 {
+  background-color: #29a085;
+  padding: 5px 0px 5px 2px;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+}
+
+.Notice_board_part {
+  width: 100%;
+  border: 1px solid#808080;
+  border-top: 0;
+  background: #ECECEC;
+  float: left;
+  padding-bottom: 30px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.Notice_board_part ul li {
+  margin-bottom: 5px;
+}
+
+.Notice_board_part ul li a {
+  font-size: 14px;
+  color: #3e3d3c;
+}
+
+/*==================================== Right Side Notice Part ==================================================== */
+
+
+
+
+/* ===================================================== IMPORTANT LINK PART ================================================ */
+.important_links h4 {
+  background-color: #29a085;
+  padding: 5px 0px 5px 2px;
+  color: #fff;
+  line-height: 1;
+  text-align: center;
+
+}
+
+.important_links p {
+  background: #074FA5;
+  padding: 15px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.important_links p a {
+  color: #fff;
+  font-weight: 500;
+}
+
+.important_links p:hover {
+  background: #32BF8C;
+  transition: all linear .3s;
+}
+
+/* ===================================================== IMPORTANT LINK PART ================================================ */
+
+
+/* ===================================================== Number count animation Part ================================================ */
+#count_animation {
+  background: url(../images/pexels-jess-loiterton-4321565.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  height: 400px;
+  position: relative;
+}
+
+#count_animation::after {
+  position: absolute;
+  content: '';
+  background: hsla(0, 0%, 0%, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flex div {
+  width: 250px;
+  height: 200px;
+  padding: 50px 0;
+  margin: 10px;
+  text-align: center;
+  border-radius: 5px;
+  background: #32BF8C;
+  color: #fff;
+  margin-top: 100px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ===================================================== Number count animation Part ================================================ */
+
+
+
+/* ===================================================== Admission Part ================================================ */
+.quick-apply {
+  background: #343A40 none repeat scroll 0 0;
+  padding: 8px 20px;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.quick-apply .title {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.quick-apply .link {
+  float: right;
+  margin-right: 15%;
+}
+
+.quick-apply .link {
+  background: #32BF8C none repeat scroll 0 0;
+  color: #ffffff !important;
+  padding: 5px 18px !important;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.quick-apply .link:hover {
+  background: #feffff none repeat scroll 0 0;
+  color: #32BF8C !important;
+  transition: all linear .3s;
+}
+
+/* ===================================================== Admission Part ================================================ */
+
+
+.footer-top-area {
+  background-color: #32BF8C;
+}
+
+.footer-widget .footer-title {
+  border-bottom: 1px solid #ffffff;
+  font-weight: 600;
+  line-height: 30px;
+  margin: 0 0 22px;
+  padding: 0px 0px 5px 10px;
+  text-transform: capitalize;
+}
+
+.footer-widget .address {
+  list-style: outside none none;
+  padding: 0px 0px 0px 10px;
+}
+
+.footer-widget .address li a {
+  color: #ffffff;
+}
+
+.footer-widget .address li {
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin: 0 0 8px;
+}
+
+.footer-widget .address li:hover,
+.footer-widget .address li a:hover {
+  color: #377be0;
+  transition: all linear .3s;
+}
+
+.footer-widget .footer-social {
+  list-style: outside none none;
+  padding: 0;
+}
+
+.footer-widget .footer-social li {
+  display: inline-block;
+  margin-bottom: 22px;
+  margin-right: 17px;
+}
+
+.footer-social a {
+  color: #fff;
+}
+
+.footer-widget .footer-social a {
+  border: 1px solid #fff6f6;
+  display: inline-block;
+  font-size: 17px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  width: 35px;
+  border-radius: 50%;
+}
+
+.footer-widget .footer-social a:hover {
+  background-color: #ffffff;
+  color: #3e3d3c;
+  transition: all linear .3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ================================================ Footer part =========================================================*/
+#footer {
+  background-color: #212529;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
+  color: #fff;
+}
+
+/* ================================================ Footer part =========================================================*/
+.to-top {
+  background: #198754;
+  position: fixed;
+  bottom: 16px;
+  right:32px;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size:32px;
+  color:#ffffff;
+  text-decoration: none;
+  opacity:0;
+  pointer-events: none;
+  transition: all .4s;
+  z-index: 100;
+}
+
+.to-top.active {
+  bottom:32px;
+  pointer-events: auto;
+  opacity:1;
+}
+
+
+
+
+
+
+/* ====================================================== ROUTINE.HTML FILE CSS ================================= */
+
+.text-container  {
+  display: none; /* Hide the image by default */
+}
+.toggleButton{
+  width: 100%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  display: block;
+  background-color: #32BF8C;
+  margin-bottom: 15PX;
+  border: 0;
+  text-align: left;
+}
+#RoutineArea{
+  margin-top: 50px;
+  margin-bottom: 350px;
+}
+
+#mini_banner{
+  background: url(../images/pexels-jess-loiterton-4321565.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
+  height: 200px;
+  position: relative;
+}
+
+#mini_banner::after {
+  position: absolute;
+  content: '';
+  background: hsla(0, 0%, 0%, 0.8);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+.mini_banner_title{
+  z-index: 2;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 50px;
+
+}
+.mini_banner_title h4{
+  font-size: 40px;
+}
+
+/* ============================================ Contact.Html page css ================================================================== */
+.google_location_part{
+margin-top: 50px;
+margin-bottom: 30px;
+}
+.google_location_part iframe{
+  width: 100%;
+}
+
+.sc-info {
+	background: #f6f5f5 none repeat scroll 0 0;
+	margin-bottom: 30px;
+	min-height: 120px;
+	padding: 0 10px 6px;
+	text-align: center;
+}
+.sc-info .icon {
+	color: #222222;
+	display: inline-block;
+	font-size: 35px;
+	line-height: 35px;
+	margin: 18px 0 11px;
+}
+.sc-info .info {
+	color: #222222;
+	display: block;
+	font-size: 14px;
+	letter-spacing: 0;
+	line-height: 22px;
+	margin: 0;
+}
+/* ============================================ Contact.Html page css ================================================================== */
+
+
+/* =============================================== About Institue page css ============================================================= */
+#about_institute{
+  margin-top: 15px;
+}
+.abt_inst_head {
+  text-align: center;
+}
+.abt_inst_head h3{
+  text-align: center;
+  font-size: 16px;
+}
+.inst_overview h2{
+  margin-top: 25px;
+}
+.inst_overview p {
+  padding: 5px;
+}
+.inst_overview p span{
+  display: block;
+  padding: 15px;
+
+}
+.inst_details h2{
+  margin-bottom: 20px;
+}
+.details_title h5{
+  font-weight: 700;
+  position: relative;
+}
+.details_title h5::after{
+  content: '';
+  border: 1px solid #32BF8C;
+  left:  0;
+  bottom: -5px;
+  width: 20%;
+  position: absolute;
+}
+/* =============================================== About Institue page css ============================================================= */
+
+
+
+
+/* ====================================== ALL DEVICE RESPONSIVE PART ================================================ */
+
+@media (max-width: 992px) {
+  .background_image {
+    background-attachment:unset
+  }
+  .flex div {
+    width: 200px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .header_top_title h1{
+    font-size: 25px;
+  }
+  .header_top_title h2 {
+    font-size: 16px;
+  }
+  .main_menu {
+    margin-top: 0px;
+  }
+  .carousel-item img {
+    height: 500px;
+  }
+  #History {
+    margin-top: 15px;
+  }
+  .Notice_board_part {
+    margin-top: 15px;
+  }
+  .flex div {
+    width: 135px;
+    height: 180px;
+  }
+  .quick-apply {
+      margin-top: 10px ;
+  }
+  .details_title h5 {
+    font-weight: 500;
+    font-size: medium;
+  }
+}
+
+@media (max-width: 576px) {
+  .logo_area {
+    margin: 0 auto;
+  }
+  .header_top_title {
+    padding: 10px;
+    text-align: center;
+  }
+  .header_loc_info {
+    text-align: center;
+  }
+  .header_top_title h1 {
+    font-size: 18px;
+  }
+  .header_top_title h2 {
+      font-size: 14px ;
+  }
+  .header_loc_info h2{
+    font-size: 18px;
+  }
+  .header_loc_info h3{
+    font-size: 14px;
+  }
+  .flex div {
+      width:135px;
+      height: 170px;
+  }
+  .quick-apply {
+      margin-top: 4px;
+  }
+  .carousel-item img {
+      height: 320px;
+  }
+  .main_menu {
+      margin-top: 5px ;
+  }
+  .history_details p {
+    font-size: 15px;
+  }
+  .messages_details_01 p {
+    font-size: 15px;
+  }
+  .Notice_board_part {
+    margin-top: 10px;
+  }
+  .navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 14px;
+  }
+  .error_image img{
+    width: 300px;
+  }
+  #mini_banner {
+    height: 100px;
+  }
+  .mini_banner_title {
+    padding-top: 35px;
+  }
+  .mini_banner_title h4 {
+    font-size: 25px;
+  }
+  .details_title h5 {
+    font-weight: 500;
+    font-size: medium;
+  }
+}
+
+
+@media (max-width: 490px) {
+  .flex div {
+    width: 100px;
+    height: 136px;
+  }
+  .flex div h3 {
+    font-size: 20px !important;
+  }
+  .notice_box {
+    width: 20%;
+  }
+  .notice_area {
+    width: 80%;
+
+}
+}
+
+
+
